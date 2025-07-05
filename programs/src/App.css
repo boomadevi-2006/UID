@@ -1,0 +1,124 @@
+.section-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 25px auto;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-container h1 {
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.section-container button {
+  margin: 5px;
+  padding: 8px 12px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.section-container button:hover {
+  background-color: #218838;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  width: 90%;
+}
+
+img#myimg {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #222;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.display {
+  width: 100%;
+  padding: 12px;
+  font-size: 24px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 15px;
+  background-color: #eee;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.buttons button:hover {
+  background-color: #666;
+}
+
+.buttons button:nth-child(4n) {
+  background-color: #f39c12;
+}
+
+.buttons button:nth-child(4n):hover {
+  background-color: #e67e22;
+}
+
+#todoList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#todoList li {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#todoList li button {
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#todoList li button:hover {
+  background-color: darkred;
+}
