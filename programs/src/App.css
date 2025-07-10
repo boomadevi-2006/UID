@@ -122,3 +122,13 @@ img#myimg {
 #todoList li button:hover {
   background-color: darkred;
 }
+.heading {
+  color: green;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  color: darkblue;
+  font-size: 18px;
+}

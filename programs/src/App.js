@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import JsxExample from './JsxExample';
 function App() {
   var ctext = () => {
     let greet = document.getElementById("header");
@@ -144,6 +144,10 @@ function App() {
         <input type="text" id="todoInput" placeholder="Enter a task" />
         <button onClick={addTodo}>Add Task</button>
         <ul id="todoList"></ul>
+      </div>
+        {/*Section7:jsxexample*/}
+      <div className="section-container">
+        <JsxExample/>
       </div>
     </div>
   );
