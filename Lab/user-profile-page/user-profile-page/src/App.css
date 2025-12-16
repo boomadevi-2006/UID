@@ -1,0 +1,30 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.profile-card, .profile-bio {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px auto;
+  width: 80%;
+  max-width: 720px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+h1, h2 {
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+}
+
+small.muted {
+  color: #666;
+}
